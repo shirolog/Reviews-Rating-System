@@ -3,7 +3,7 @@
 try{
 
 $db_name = 'mysql:host=localhost;dbname=review_db';
-$password= 'HTMLCSS1728';
+$password= '';
 $user_name= 'root';
 
 $conn = new PDO($db_name, $user_name, $password);
